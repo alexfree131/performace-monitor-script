@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/alex/repos/4python/monitor.py.py", line 35, in <module>
+    time.sleep(43200)
+KeyboardInterrupt
