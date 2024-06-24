@@ -25,7 +25,7 @@ def log_performance():
     
     log_entry = f"{now}, CPU Temp: {cpu_temp}, CPU Usage {cpu_usage}, RAM Usage: {ram_usage}%\n"
     
-    with open("performance.log", "a") as log_file:
+    with open("/logs/performance.log", "a") as log_file:
         log_file.write(log_entry)
 
 if __name__ == "__main__":
